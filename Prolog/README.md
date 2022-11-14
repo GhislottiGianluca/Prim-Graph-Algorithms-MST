@@ -1,10 +1,8 @@
 # mst.pl Library 
 
-Il file mst.pl contiene il programma che mostra l'albero minimo ricoprente
-di un grafo, utilizzando l'algoritmo di Prim.
+The file mst.pl contains the programme that shows the minimum covering tree of a graph, using Prim's algorithm.
 
-Per la sua realizzazione abbiamo utilizzato un heap binario e funzioni per
-la creazione di grafi, le quali si possono usare liberamente.
+For its realisation, we used a binary heap and functions for the creation of graphs.
 
 
 ## Legend
@@ -120,7 +118,7 @@ la creazione di grafi, le quali si possono usare liberamente.
 
 * **delete_heap** = deletes the entire contents of a heap *h* from the database.<br>
 
-    	delete_heap(h). --> true 
+    	 delete_heap(h). --> true 
 
 
 * **heap_has_size** = prints the value of a heap *h* (ex: 5) false if no heap *h* exists.<br>
