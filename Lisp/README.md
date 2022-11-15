@@ -17,14 +17,12 @@ Since the algorithm uses a binary heap and functions for creating graphs, these 
 ### MST Management
 
 * **mst-vertex-key** = executable only after the algorithm of prim on a graph *'g*, prints a key *k* (ex: 4) of a *'g* graph and an *'r* vertex.<br>
-
-		     *NIL* if the graph does not exist, or if the prim algorithm has not previously been performed on the graph.<br>
+		    *NIL* if the graph does not exist, or if the prim algorithm has not previously been performed on the graph.<br>
 
 	(mst-vertex-key 'g 'r) --> 4 / NIL
 
 * **mst-previous** = executable only after the algorithm of prim on a graph *'g*, prints a parent vertex *'p* of a *g* graph and an *'r* vertex.<br>
-		   
-		   *NIL* if the graph does not exist, or if the prim algorithm has not previously been performed on the graph.<br>
+		*NIL* if the graph does not exist, or if the prim algorithm has not previously been performed on the graph.<br>
 		   
 	(mst-previous 'g 'r) --> P / NIL
 
