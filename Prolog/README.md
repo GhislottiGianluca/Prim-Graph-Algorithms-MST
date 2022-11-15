@@ -9,8 +9,8 @@ For its realisation, we used a binary heap and functions for the creation of gra
 * function(). --> return. 
 * \n = from this character onwards will be printed on a new line.
 * / = from this character onwards is another output.
-* * (nei return) = indicates a piece of data that makes up the output but which we do not have in the specification.
-* ..... (all'interno del return) = indicates a possible output continuum.
+* '* (within the return) = indicates a piece of data that makes up the output but which we do not have in the specification.
+* ..... (within the return) = indicates a possible output continuum.
 
 
 ## Functions
