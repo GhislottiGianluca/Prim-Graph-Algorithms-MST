@@ -118,47 +118,47 @@ For its realisation, we used a binary heap and functions for the creation of gra
 
 * **delete_heap** = deletes the entire contents of a heap *h* from the database.<br>
 
-    	 delete_heap(h). --> true 
+	delete_heap(h). --> true 
 
 
 * **heap_has_size** = prints the value of a heap *h* (ex: 5) false if no heap *h* exists.<br>
 		    
-	 heap_has_size(h, S). --> S = 5 / false
+	heap_has_size(h, S). --> S = 5 / false
 
 
 * **heap_empty** = *true* if heap *h* is empty, *false* otherwise.<br>
 
-	 heap_empty(h). --> true / false
+	heap_empty(h). --> true / false
 
 
 * **heap_not_empty** = *true* if heap *h* is not empty, *false* otherwise.<br>
 
-	 heap_not_empty(h). --> true / false
+	heap_not_empty(h). --> true / false
 
 
 * **heap_head** = returns the first *key-value* node in a heap *h*, *false* if no heap *h* exists or if it is empty.<br>
 		
-	 heap_head(h, K, V). --> K = 4, \n V = r / false
+	heap_head(h, K, V). --> K = 4, \n V = r / false
 
 
 * **list_heap** = prints a heap *h* and all its nodes false if the heap does not exist.<br>
 		
-	 list_heap(h).<br>
-	 --> heap(h, *). \n heap_entry(h, *, *, *) \n ..... / false
+	list_heap(h).<br>
+	--> heap(h, *). \n heap_entry(h, *, *, *) \n ..... / false
 
 
 * **modify_key** = modifies the key of a node (ex: 3,5,r), replacing it.<br>
 		   It then reorders the heap correctly.<br>
 		 
-	 modify_key(h, 3, 5, r). --> true 
+	modify_key(h, 3, 5, r). --> true 
 
 
 * **heap_insert** = inserts a node (ex: (5,r)) into a heap *h*, *false* if the heap *h* does not exist.<br>
 		  
-	 heap_insert(h, 5, r). --> true / false
+	heap_insert(h, 5, r). --> true / false
 
 
 * **heap_extract** = extracts the first element of a heap *h*.<br>
 		     By placing in *K* the weight (ex: 5) and in *V* the value (ex: r) of the node. <br>
 
-	 heap_extract(h, K , V). --> K = 5 \n V = r.
+	heap_extract(h, K , V). --> K = 5 \n V = r.
